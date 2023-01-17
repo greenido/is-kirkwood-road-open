@@ -1,0 +1,35 @@
+{
+  "name": "highway-80-california-aog",
+  "version": "1.0.4",
+  "description": "The road conditions on highway-80",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^8.12.1",
+    "actions-on-google": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "request": "^2.88.2",
+    "got": "^11.1.4",
+    "es6-map": "^0.1.5",
+    "prettyjson": "^1.2.1",
+    "underscore.string": "^3.3.5",
+    "wikipedia-js": "^0.0.6",
+    "sqlite3": "^4.2.0"
+  },
+  "engines": {
+    "node": "12.14.1"
+  },
+  "repository": "https://github.com/greenido/highway-80-california",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "keywords": [
+    "node",
+    "aog",
+    "actions-on-google",
+    "firebase",
+    "express",
+    "sqlite3"
+  ]
+}
