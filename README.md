@@ -4,7 +4,7 @@
 
 ## ⛷️ What are road conditions on highway 88 to Kirkwood CA Ski resort?
 
-#### You can also just remember: https://is-kirkwood-road-open.glitch.me
+#### 🚨 Just remember: [is-kirkwood-road-open.glitch.me](https://is-kirkwood-road-open.glitch.me)
 
 ## Project Details
 

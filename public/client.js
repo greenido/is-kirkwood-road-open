@@ -11,5 +11,10 @@ $(function() {
     $("#curStatus").html(data);
   });
 
+  
+  // refresh data every minute
+  setInterval(function () {
+    location.reload();
+  } , 1000 * 60);
   //var isMobile = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i)
 });
