@@ -49,8 +49,11 @@ app.get("/getText", function (req, res) {
         let inx2 = html.indexOf("<hr", inx1 + 100);
 
         let roadConditionsStr = html.substring(inx1, inx2).trim();
-        //roadConditionsStr = roadConditionsStr.replace(/\[/g, '');
-        //roadConditionsStr = roadConditionsStr.replace(/\]/g, ': ');
+        roadConditionsStr = roadConditionsStr.replace(/CHAINS/g, '<b>CHAINS</b>');
+        roadConditionsStr = roadConditionsStr.replace(/1-WAY/g, '<b>1-WAY</b>');
+        roadConditionsStr = roadConditionsStr.replace(/PROHIBITED/g, '<b>PROHIBITED</b>');
+        roadConditionsStr = roadConditionsStr.replace(/CLOSED/g, '<b>CLOSED</b>');
+         
         //console.log("inx1: " + inx1 + " inx2:" + inx2);
         //console.log("🚀🚀 roadConditionsStr:" + roadConditionsStr);
 
